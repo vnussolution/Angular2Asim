@@ -1,5 +1,6 @@
 <div class="card card-block">
     <h4 class="card-title">{{data.setup}}</h4>
     <p class="card-text" [hidden]="data.hide">{{data.punchline}}</p>
-    <a class="btn btn-warning" (click)="data.toggle()">Tell Me</a>
+    <a class="btn btn-success" (click)="data.toggle()">Tell Me</a>
+    <a class="btn btn-warning" (click)="deleteJoke(data)">Delete</a>
 </div>
